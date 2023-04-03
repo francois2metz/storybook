@@ -22,7 +22,7 @@ If your component files import their CSS, Storybook's webpack configuration will
 
 ### CSS compilers
 
-If you're using tools like Sass or Postcss, you can either install and configure [`@storybook/addon-styling`](https://github.com/storybookjs/addon-styling#storybookaddon-styling), or customize [Storybook's webpack configuration](../builders/webpack.md#extending-storybooks-webpack-config) and include the appropriate loader. If you're using Vite, this all comes pre-configured for you.
+If you're using tools like Sass or Postcss, you can either install and configure [`@storybook/addon-styling`](https://github.com/storybookjs/addon-styling#storybookaddon-styling), or customize [Storybook's webpack configuration](../builders/webpack.md#override-the-default-configuration) and include the appropriate loader. If you're using Vite, this all comes pre-configured for you.
 
 <FeatureSnippets paths={['configure/css-troubleshooting/angular.mdx']} />
 
